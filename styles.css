@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7cdaef;
+  font-family: "Play";
+}
+
+.container {
+  position: relative;
+  width: 900px;
+  margin: 104px auto 0 auto;
+}
+
+.firstCloud {
+  position: absolute;
+  top: -59px;
+  right: -155px;
+  z-index: 3;
+}
+
+.secondCloud {
+  position: absolute;
+  top: 183px;
+  left: -205px;
+  z-index: 1;
+}
+
+.thirdCloud {
+  position: absolute;
+  top: 454px;
+  right: -206px;
+  z-index: 1;
+}
+
+.about {
+  position: relative;
+  padding: 99px 78px 176px 78px;
+  z-index: 2;
+  background-color: rgba(14, 73, 126, 0.7);
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 26px;
+}
+
+p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 36px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 36px 0 51px 0;
+}
+
+.gallery {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  height: 121px;
+}
+
+.grass {
+  background-image: url(./images/grass.png);
+  height: 133px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
